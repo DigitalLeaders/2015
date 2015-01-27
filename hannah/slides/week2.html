@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Digital Leaders - HTML &amp; CSS - Week 2</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/night.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+        
+        <style>
+        .highlight {
+            color: #17ff2e;
+        }
+        .highlight2 {
+            color: #ff7917;
+        }
+        </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Digital Leaders</h1>
+					<h3>HTML &amp; CSS - Week 2</h3>
+				</section>
+              
+                <section>
+                    <h1>Last week</h1>
+                    <p class="fragment">We started to learn HTML</p>
+                </section>
+            
+                
+                <section>
+                    <h1>HTML Tags</h1>
+                </section>
+                
+                <section>
+                    <h2>Start Tag <code class="fragment">&lt;h1&gt;</code></h2>
+                    <h2 class="fragment">End Tag <code class="fragment">&lt;/h1&gt;</code></h2>
+                </section>
+              
+                <section>
+                    <h1>HTML Page</h1>
+                </section>
+                
+                <section>
+                    
+                    <h2>HTML Template</h2>
+                
+                <pre><code data-trim contenteditable>
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My Title (tab)&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;My Title (page)&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+                </section>
+                
+                  <section>
+                    
+                    <h2>Head Section</h2>
+                      
+                    <p>Information <em>about</em> your HTML page</p>
+                
+                <pre><code data-trim contenteditable>
+&lt;head&gt;
+    &lt;title&gt;My Title (tab)&lt;/title&gt;
+&lt;/head&gt;
+</code></pre>
+                </section>
+                
+                <section>
+                    
+                    <h2>Body Section</h2>
+                      
+                    <p>The content of your HTML page</p>    
+                
+                <pre><code data-trim contenteditable>
+&lt;body&gt;
+    &lt;h1&gt;My Title (page)&lt;/h1&gt;
+&lt;/body&gt;
+</code></pre>
+                </section>
+                
+                <section>
+                    <h1>Tools:</h1>
+                    <ul>
+                        <li class="fragment">
+                            <a href="https://goggles.webmaker.org/">X-Ray Goggles</a>
+                        </li>
+                        <li class="fragment">
+                            <a href="https://developer.chrome.com/devtools">Chrome Inspector</a>
+                        </li>
+                        <li class="fragment">
+                            <a href="http://jsbin.com/?html,output">JS Bin</a>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h1>This week</h1>
+                    <ul>
+                        <li class="fragment">
+                            <a href="http://jsbin.com/?html,output">JS Bin</a>
+                        </li>
+                        <li class="fragment">More HTML!</li>
+                        <li class="fragment">CSS</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>More HTML</h2>
+                    <a href="http://jsbin.com/?html,output">http://jsbin.com/?html,output</a>
+                    <p>Add an image:</p>
+                    <code>&lt;img src="http://placekitten.com/g/300/300"&gt;</code>
+                </section>
+                
+                <section>
+                    <h2>More HTML</h2>
+                    <a href="http://jsbin.com/?html,output">http://jsbin.com/?html,output</a>
+                    <p>Here are some more HTML tags to try:</p>
+                    <ul>
+                        <li><code>&lt;h1&gt;&lt;/h1&gt;</code></li>
+                        <li><code>&lt;h2&gt;&lt;/h2&gt;</code></li>
+                        <li><code>&lt;h3&gt;&lt;/h3&gt;</code></li>
+                        <li><code>&lt;p&gt;&lt;/p&gt;</code></li>
+                        <li><code>&lt;strong&gt;&lt;/strong&gt;</code></li>
+                        <li><code>&lt;em&gt;&lt;/em&gt;</code></li>
+                        <li><code>&lt;del&gt;&lt;/del&gt;</code></li>
+                        <li><code>&lt;hr&gt;</code></li>
+                        <li><code>&lt;br&gt;</code></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>CSS</h1>
+                    <p>Makes things prettier!</p>
+                </section>
+                
+                <section>
+                    <h1>HTML Attributes</h1>
+                    <ul>
+                        <li class="fragment">
+                    <span class="highlight"><span>attribute</span><span class="fragment">=</span><span class="fragment">&quot;</span><span class="fragment highlight2">value</span><span class="fragment">&quot;</span></span>
+                        </li>
+                        <li class="fragment">&lt;img 
+                    <span class="highlight"><span class="fragment">src</span><span class="fragment">=</span><span class="fragment">&quot;</span><span class="fragment highlight2">http://placekitten.com/g/300/300</span><span class="fragment">&quot;</span></span>&gt;
+                        </li>
+                        <li class="fragment">
+                         &lt;h1&nbsp; 
+                    <span class="highlight"><span class="fragment">class</span><span class="fragment">=</span><span class="fragment">&quot;</span><span class="fragment highlight2">bright</span><span class="fragment">&quot;</span></span>&gt;Hello!&lt;/h1&gt;
+                        </li>
+                    </ul>
+                </section>
+                
+                
+                
+                <section>
+                    <h1>CSS Rules</h1>
+                                 <pre><code data-trim contenteditable>
+.bright { color: yellow; }
+</code></pre>
+                </section>
+                
+                <section>
+                    <h1>CSS Rules</h1>
+                    <p class="fragment left"><span>.</span><span class="fragment">class</span><span class="fragment"> { </span><span class="fragment">rule</span><span class="fragment">: </span><span class="fragment">value</span><span class="fragment">;</span><span class="fragment"> } </span></p>
+                    <p class="fragment left"><span>.</span><span class="fragment">bright</span><span class="fragment"> { </span><span class="fragment">color</span><span class="fragment">: </span><span class="fragment">yellow</span><span class="fragment">;</span><span class="fragment"> } </span></p>
+                </section>
+                
+                <section>
+                    <h2>Try it out</h2>
+                    <a href="http://jsbin.com/?html,output">http://jsbin.com/?html,output</a>
+                    <p>HTML: <span class="highlight">&lt;h1 class="bright"&gt;Hello!&lt;/h1&gt;</span></p>
+                    <p>CSS: <span class="highlight2">.bright { color: yellow; }</span></p>
+                </section>
+			</div>
+
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
