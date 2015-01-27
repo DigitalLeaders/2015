@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Digital Leaders - HTML &amp; CSS - Week 2</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/night.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+        
+        <style>
+        .highlight, .hi-green {
+            color: #17ff2e;
+        }
+        .highlight2, .hi-orange {
+            color: #ff7917;
+        }
+        .highlight2, .hi-pink {
+            color: rgb(255, 23, 184);
+        }    
+
+        .left-box {
+            margin-left: 100px !important;
+        }
+            
+        .left span, .left p {
+            text-align: left;
+        }
+            
+        </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Digital Leaders</h1>
+					<h3>HTML &amp; CSS - Week 3</h3>
+				</section>
+              
+                <section>
+                    <h1>Last week</h1>
+                    <p class="fragment">We started to learn CSS</p>
+                </section>
+            
+                <section>
+                    <h1>Recap!</h1>
+                </section>
+                
+                <section>
+                    
+                    <h2>HTML Template</h2>
+                
+                <pre><code data-trim contenteditable>
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+                </section>
+                
+                <section>
+                <h2>HTML Template</h2>
+                
+                <pre>
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;<span class="highlight">
+    &lt;body&gt;
+        
+    &lt;/body&gt;</span>
+&lt;/html&gt;
+</pre>
+                </section>
+                
+                <section>
+                    <h1>HTML Attributes</h1>
+                                 <pre><code data-trim contenteditable>
+<h1 class="bright">Hello!</h1>
+</code></pre>
+                </section>
+                
+                <section>
+                    <h1>HTML Attributes</h1>
+                    <ul>
+                        <li class="fragment">
+                    <span class="highlight"><span>attribute</span><span class="fragment">=</span><span class="fragment">&quot;</span><span class="fragment highlight2">value</span><span class="fragment">&quot;</span></span>
+                        </li>
+                        <li class="fragment">&lt;img 
+                    <span class="highlight"><span class="fragment">src</span><span class="fragment">=</span><span class="fragment">&quot;</span><span class="fragment highlight2">http://placekitten.com/g/300/300</span><span class="fragment">&quot;</span></span>&gt;
+                        </li>
+                        <li class="fragment">
+                         &lt;h1&nbsp; 
+                    <span class="highlight"><span class="fragment">class</span><span class="fragment">=</span><span class="fragment">&quot;</span><span class="fragment highlight2">bright</span><span class="fragment">&quot;</span></span>&gt;Hello!&lt;/h1&gt;
+                        </li>
+                    </ul>
+                </section>
+                
+                
+                
+                <section>
+                    <h1>CSS Rules</h1>
+                                 <pre><code data-trim contenteditable>
+.bright { color: yellow; }
+</code></pre>
+                </section>
+                
+                <section class="left">
+                    <h1>CSS Rules</h1>
+                    <div class="left-box">
+                    <p class="fragment"><span class="hi-pink">.</span><span class="fragment">class</span><span class="fragment hi-pink"> { </span><span class="fragment">rule</span><span class="fragment hi-orange">: </span><span class="fragment">value</span><span class="fragment hi-orange">;</span><span class="fragment hi-pink"> } </span></p>
+                    <p class="fragment"><span class="hi-pink">.</span><span class="fragment">bright</span><span class="fragment hi-pink"> { </span><span class="fragment">color</span><span class="fragment hi-orange">: </span><span class="fragment">yellow</span><span class="fragment hi-orange">;</span><span class="fragment hi-pink"> } </span></p>
+                        </div>
+                </section>
+                
+                 <section class="left">
+                    <h1>Multiple CSS Rules</h1>
+                     <div class="left-box">
+                    <p class="fragment left"><span class="hi-pink">.</span><span class="fragment">class</span><span class="fragment hi-pink"> { </span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="fragment">rule</span><span class="fragment hi-orange">: </span><span class="fragment">value</span><span class="fragment hi-orange">;</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="fragment">rule</span><span class="fragment hi-orange">: </span><span class="fragment">value</span><span class="fragment hi-orange">;</span>
+                        <br><span class="fragment hi-pink"> } </span></p>
+                    <p class="fragment left"><span class="hi-pink">.</span><span class="fragment">bright</span><span class="fragment hi-pink"> { </span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="fragment">color</span><span class="fragment hi-orange">: </span><span class="fragment">yellow</span><span class="fragment hi-orange">;</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="fragment">font-size</span><span class="fragment hi-orange">: </span><span class="fragment">50px</span><span class="fragment hi-orange">;</span>
+                        <br><span class="fragment hi-pink"> } </span></p>
+                        </p>
+                         </div>
+                </section>
+                
+                <section>
+                    <h1>This Week</h1>
+                    <p>Combining HTML &amp; CSS together</p>
+                         
+                <pre><code data-trim contenteditable>
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+                                          
+            </section>
+            
+            
+             <section>
+                <h2>HTML Template</h2>
+                
+                <pre>
+&lt;html&gt;
+    <span class="highlight">&lt;head&gt;</span>
+        &lt;title&gt;&lt;/title&gt;
+    <span class="highlight">&lt;/head&gt;</span>
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                </section>
+            
+            
+                 <section>
+                <h1>Add Style!</h1>
+                
+                <pre>
+&lt;html&gt;
+    <span class="highlight">&lt;head&gt;</span>
+        &lt;title&gt;&lt;/title&gt;
+        <span class="hi-pink">&lt;style&gt;</span>
+        
+        
+        <span class="hi-pink">&lt;/style&gt;</span>
+    <span class="highlight">&lt;/head&gt;</span>
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                </section>
+            
+             <section>
+                <h1>Add Style!</h1>
+                
+                <pre>
+&lt;html&gt;
+    <span class="highlight">&lt;head&gt;</span>
+        &lt;title&gt;&lt;/title&gt;
+        <span class="hi-pink">&lt;style&gt;</span>
+        <span class="hi-orange">
+            .bright { 
+                color: yellow; 
+                font-size: 100px;
+            }
+        </span>
+        <span class="hi-pink">&lt;/style&gt;</span>
+    <span class="highlight">&lt;/head&gt;</span>
+    &lt;body&gt;
+        <span class="hi-orange">&lt;h1 class="bright"&gt;Hello!&lt;/h1&gt;</span>
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                </section>
+            
+            <section>
+                <h1>Github</h1>
+                <p><a href="http://github.com">http://github.com</a></p>
+                <p>Username: <span class="hi-pink">BridgewaterDigitalLeaders</span></p>
+                <p>Password: <span class="hi-pink">Digital15</span></p>
+            </section>
+
+			</div>
+
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
