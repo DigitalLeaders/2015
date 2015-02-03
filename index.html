@@ -1,34 +1,91 @@
 <html>
 <head>
     <title>Hello Digital Leaders!</title>
+    
+    <style>
+        .page { 
+            width: 720px;
+            margin: 0 auto; /* this puts the page in the center */
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .large {
+            font-size: 18px;
+        }
+        
+        .featured-image {
+            text-align: center;
+        }
+        
+        .featured-image img {
+            border: 15px grey inset;
+        }
+        
+        .biglist {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 100px;
+        }
+        
+        .short {
+            height: 55px;
+        }
+        
+        .biglist li {
+            width: 300px;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Welcome to Digital Leaders 2015!</h1>
-    
-    <img src="shared/images/catswithhats.gif" alt="Kitten" />
-    
-    <h2><a href="http://jsbin.com/?html,output">Go to JS-Bin</a></h2>
-    
-    
-    <p>This is the homepage of the 2015 Digital Leaders. Click on our names below to see our individual pages:
-        <ul>
-            <li><a href="/brooke">Brooke</a></li>
-            <li><a href="/caiden">Caiden</a></li>
-            <li><a href="/charlotte">Charlotte</a></li>
-            <li><a href="/cian">Cian</a></li>
-            <li><a href="/ellie">Ellie</a></li>
-            <li><a href="/emilyb">Emily B</a></li>
-            <li><a href="/emilyra">Emily RA</a></li>
-            <li><a href="/hannah">Hannah</a></li>
-            <li><a href="/harryl">Harry L</a></li>
-            <li><a href="/harryw">Harry W</a></li>
-            <li><a href="/isobel">Isobel</a></li>
-            <li><a href="/jacob">Jacob</a></li>
-            <li><a href="/lexus">Lexus</a></li>
-            <li><a href="/magnus">Magnus</a></li>
-            <li><a href="/toby">Toby</a></li>
+    <div class="page">
+        <h1 class="center">Welcome to Digital Leaders 2015!</h1>
+
+        <div class="featured-image">
+            <img src="shared/images/catswithhats.gif" alt="Kitten" />
+        </div>
+
+        <h2>Useful References</h2>
+        
+        <p>The following links will help you build your page:
+        <ul class="biglist short">
+            <li><a href="https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5/HTML5_element_list">A list of all HTML elements</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Big list of CSS attributes</a></li>
+            <li><a href="http://html-color-codes.info/">Find HEX color codes</a></li>
+            <li><a href="http://jsbin.com/?html,output">Go to JS-Bin</a></li>
+            <li><a href="http://github.com/">Go to GitHub</a></li>
+            <li><a href="http://www.codecademy.com/en/tracks/web">Code Academy HTML &amp; CSS</a></li>
+            <li><a href="hannah/slides/week2.html">Week 2 Slides</a></li>
+            <li><a href="hannah/slides/week3.html">Week 3 Slides</a></li>
+            
         </ul>
-    </p>
+        </p>
+
+        <h2>Our Pages</h2>
+        <p>This is the homepage of the 2015 Digital Leaders. Click on our names below to see our individual pages:
+            <ul class="biglist">
+                <li><a href="brooke">Brooke</a></li>
+                <li><a href="caiden">Caiden</a></li>
+                <li><a href="charlotte">Charlotte</a></li>
+                <li><a href="cian">Cian</a></li>
+                <li><a href="ellie">Ellie</a></li>
+                <li><a href="emilyb">Emily B</a></li>
+                <li><a href="emilyra">Emily RA</a></li>
+                <li><a href="hannah">Hannah</a></li>
+                <li><a href="harryl">Harry L</a></li>
+                <li><a href="harryw">Harry W</a></li>
+                <li><a href="isobel">Isobel</a></li>
+                <li><a href="jacob">Jacob</a></li>
+                <li><a href="lexus">Lexus</a></li>
+                <li><a href="magnus">Magnus</a></li>
+                <li><a href="toby">Toby</a></li>
+            </ul>
+        </p>
+    </div>
     
 </body>
 </html>
