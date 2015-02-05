@@ -1,0 +1,76 @@
+<html>
+<head>
+      <title>cool kids web</title>
+    
+    <style>
+    
+{ font-size: medium;
+}
+}
+   { font-family: monospace;
+   }
+       .bright {
+           color:orange;
+       } 
+    
+      .page {
+            background:background: rgb(8,0,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(8,0,255,1) 0%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(175,1,30,1) 46%, rgba(175,1,30,1) 46%, rgba(17,17,17,1) 60%, rgba(44,44,44,1) 61%, rgba(44,44,44,1) 61%, rgba(89,89,89,1) 61%, rgba(43,43,43,1) 76%, rgba(244,61,0,1) 81%, rgba(244,61,0,1) 89%, rgba(244,61,0,1) 89%, rgba(28,28,28,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(8,0,255,1)), color-stop(25%,rgba(102,102,102,1)), color-stop(39%,rgba(71,71,71,1)), color-stop(46%,rgba(175,1,30,1)), color-stop(46%,rgba(175,1,30,1)), color-stop(60%,rgba(17,17,17,1)), color-stop(61%,rgba(44,44,44,1)), color-stop(61%,rgba(44,44,44,1)), color-stop(61%,rgba(89,89,89,1)), color-stop(76%,rgba(43,43,43,1)), color-stop(81%,rgba(244,61,0,1)), color-stop(89%,rgba(244,61,0,1)), color-stop(89%,rgba(244,61,0,1)), color-stop(100%,rgba(28,28,28,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(8,0,255,1) 0%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(175,1,30,1) 46%,rgba(175,1,30,1) 46%,rgba(17,17,17,1) 60%,rgba(44,44,44,1) 61%,rgba(44,44,44,1) 61%,rgba(89,89,89,1) 61%,rgba(43,43,43,1) 76%,rgba(244,61,0,1) 81%,rgba(244,61,0,1) 89%,rgba(244,61,0,1) 89%,rgba(28,28,28,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(8,0,255,1) 0%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(175,1,30,1) 46%,rgba(175,1,30,1) 46%,rgba(17,17,17,1) 60%,rgba(44,44,44,1) 61%,rgba(44,44,44,1) 61%,rgba(89,89,89,1) 61%,rgba(43,43,43,1) 76%,rgba(244,61,0,1) 81%,rgba(244,61,0,1) 89%,rgba(244,61,0,1) 89%,rgba(28,28,28,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(8,0,255,1) 0%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(175,1,30,1) 46%,rgba(175,1,30,1) 46%,rgba(17,17,17,1) 60%,rgba(44,44,44,1) 61%,rgba(44,44,44,1) 61%,rgba(89,89,89,1) 61%,rgba(43,43,43,1) 76%,rgba(244,61,0,1) 81%,rgba(244,61,0,1) 89%,rgba(244,61,0,1) 89%,rgba(28,28,28,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(8,0,255,1) 0%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(175,1,30,1) 46%,rgba(175,1,30,1) 46%,rgba(17,17,17,1) 60%,rgba(44,44,44,1) 61%,rgba(44,44,44,1) 61%,rgba(89,89,89,1) 61%,rgba(43,43,43,1) 76%,rgba(244,61,0,1) 81%,rgba(244,61,0,1) 89%,rgba(244,61,0,1) 89%,rgba(28,28,28,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0800ff', endColorstr='#1c1c1c',GradientType=0 ); /* IE6-9 */
+ 
+        }
+    </style>
+</head>
+<body class="page">
+
+
+
+    
+    </style>
+
+</head>
+
+<h2 id="header">
+<img alt="BBC News" src="http://news.bbcimg.co.uk/img/1_0_3/cream/hi/news/news-blocks.gif"></a>
+    	                	            	    	            		<span class="section-title">UK</span>
+    	            	    	            		   		      				  </h2>
+<h1 class="bright">caiden and thalia thurman's exelent webpage</h1>
+<h1 class="bright">thalias pretty pictures</h1>
+<img src="http://epicminecraftpemaps.com/wp-content/uploads/2013/12/minion.png">
+ <h1 class="bright">thalia is awesome too!>
+ <img src="http://2.bp.blogspot.com/-KZG5J7CBAQE/UxK2BumxGII/AAAAAAAAAs8/lG6NjgpKyKU/s1600/Thalia+poem.png">
+<img src="http://images6.fanpop.com/image/photos/35000000/Stewart-Gaga-despicable-me-minions-35042671-659-740.jpg">
+<img src="http://data2.whicdn.com/images/73792003/large.jpg">
+<img src="http://4.bp.blogspot.com/-xO7QB0Fz0Ic/UVC4C0srPrI/AAAAAAAAAKk/CH8d3QCbQhs/s1600/Thalia_logos.jpg">
+<img src="http://cdn1.disneybaby.com/images/2013/07/disneythalia.jpg">
+
+<h1 class="bright">caidens awesome pictures!</h1>
+<img src="http://digitalleaders.github.io/2015/shared/images/catswithhats.gif"
+<img src="http://i.ytimg.com/vi/R6ZN0-7OA34/maxresdefault.jpg">
+<img src="http://rlv.zcache.com/i_love_caiden_necklace-r99e1b68202d54c3c9d0d45c4d36a377d_fkoep_324.jpg?rlvnet=1">
+<img src="http://i3.cpcache.com/product/45183320/caiden_mug.jpg?height=225&width=225">
+<img src="http://i1.cpcache.com/product_zoom/1008430358/keep_calm_and_love_caiden_keepsake_box.jpg?color=Mahogany&height=460&width=460&padToSquare=true">
+<img src="http://ecx.images-amazon.com/images/I/310ilvoX8PL.jpg">
+<img src="http://www.tattoogen.com/tattoo/Walt%20Disney%20Movie/74.51666666666667/000000/Caiden.jpg">
+  <h1 class="bright">caiden is awesome</h1>
+    <h1 class="bright">our awesome links</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Eo34T5RGFGQ" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-a7k-YvN3u4" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/niLMQsD9ZG4" frameborder="0" allowfullscreen></iframe>
+                 <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/42298654/?autostart=false" frameborder="0" allowfullscreen></iframe>     
+ <h1 class="bright">minion pictures:{</h1>
+ <img src="http://4.bp.blogspot.com/-aBA10spF4gw/VIXTtOum6nI/AAAAAAAAAFo/sDA4pF1bvog/s1600/Funniest-Minion-face-wallpaper-with-message-2015.jpg">
+ <img src="https://lh3.googleusercontent.com/-tuRlWyPuYVk/AAAAAAAAAAI/AAAAAAAAABM/EGY9ZlgvJtU/photo.jpg">
+ <img src="http://img2.wikia.nocookie.net/__cb20130830090455/despicableme/images/7/7e/No_to_purple_minions.png">
+ <img src="http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-love-the-cute-minions.png">
+ <img src="https://s-media-cache-ak0.pinimg.com/736x/e5/2b/70/e52b70a5371be58e20fc36396ffdc1f0.jpg">
+ <h1 class="bright">love minions like caiden and thalia xxx</h1>
+ <
+ 
+</body>
+</html>
