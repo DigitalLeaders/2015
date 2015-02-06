@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title></title>
+    
+    <style>
+    
+    /* Set the body background colour */
+    .pretty {
+        background: black;
+    }
+        
+    h1 { text-align: center }
+       
+    /* Create a page in the middle */
+    .page {
+        width: 800px;
+        margin: 0 auto;
+        height: 100%;
+        background: rgba(255,255,255,0.5);
+        
+        /* Make some space between the edge of the page and the items */
+        padding: 30px;    
+    }    
+        
+    /* Make all of the items layout in rows */  
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+       
+    /* Each item needs some rules as well */
+    .item {
+        /* Everything should take up as much space as it can */
+        flex-grow: 1;
+        
+        /* Set a minimum width - this can be changed */
+        min-width: 200px;
+        
+        /* Make some space in each item */
+        padding: 10px;
+        
+        /* Make it possible to see where each item is - take these rules out when you're done */
+        border: 1px solid black;
+        height: 100px;
+        
+    }
+        
+        
+    /* Create a special class to force some items to be full-width */
+    .full-width {
+        width: 800px;
+        flex-grow: 3;
+    }
+    
+    </style>
+</head>
+<body class="pretty">
+    <div class="page">
+        <section class="content">
+            <div class="item full-width">
+                <h1>How to make a layout</h1>
+            </div>
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item full-width">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+        </section>
+    </div>
+</body>
+</html>
