@@ -22,12 +22,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ead838', end
         flex-wrap: wrap;
     }
     .full-width { width: 100%; }
+     /* Each item needs some rules as well */
+    .item {
+        /* Everything should take up as much space as it can */
+        flex-grow: 1;
+        
+        /* Set a minimum width - this can be changed */
+        min-width: 200px;
+        
+        /* Make some space in each item */
+        padding: 10px;
+        
+        /* Make it possible to see where each item is - take these rules out when you're done */
+        border: 1px solid black;
+        height: 100px;
+        
+    }
+    
+    
     </style>
 </head>
 <body class="page">
 <div class="big-box">
-    <h1 class="DOF full-width">Film Club</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/az9MeIoc8-8" frameborder="0" allowfullscreen></iframe>
+    <div class="item full-width"><h1 class="DOF">Film Club</h1></div>
+    <div class="item"><iframe width="560" height="315" src="https://www.youtube.com/embed/az9MeIoc8-8" frameborder="0" allowfullscreen></iframe></div>
     <p class="Hello"> Dimension Diemma is about how a boy and a girl how are completely different becom friends. Over three minutes they go into loads of different dimenions and in the end they think they are back to normal. Or are they.  </p>  
     <h1 class="CS"> Camera Shots </h1>
     <h2 class="close"> Close ups. Close ups are used to show emotion and what the persons face looks like</h2>
