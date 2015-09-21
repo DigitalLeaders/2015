@@ -11,13 +11,18 @@
 </head>
 <body class="page">
  <h1>WELCOME TO THE CHATTY CAFE</h1>
- <form action="/html/tags/html_form_tag_action.cfm" method="post">
-<div>
-<textarea name="comments" id="comments">
-Hey... say something!
-</textarea>
-</div>
-<input type="submit" value="Submit">
+<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  
+
+ 
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
 </form>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5T90x9Dlh6E" frameborder="0" allowfullscreen></iframe>
